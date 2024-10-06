@@ -11,15 +11,8 @@ This project aims to build a deep learning classifier to attribute text completi
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Modeling Approach](#modeling-approach)
-- [Installation](#installation)
 - [Usage](#usage)
-  - [Data Preprocessing](#data-preprocessing)
-  - [Training the Classifier](#training-the-classifier)
-  - [Evaluating the Classifier](#evaluating-the-classifier)
-  - [Generating New Completions](#generating-new-completions)
-- [Experiments and Results](#experiments-and-results)
 - [Contributors](#contributors)
-- [License](#license)
 
 ## Dataset
 
@@ -59,3 +52,6 @@ Our experiments compare the accuracy of these models in attributing completions 
     ```bash
     python BERT_optimized.py
     ```
+## Contributors
+
+Group members: Tianrun Yu, Ming Zhu, Yucheng Zhou, Hongxi Huang
