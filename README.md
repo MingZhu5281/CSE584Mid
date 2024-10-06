@@ -33,10 +33,10 @@ The dataset is organized as a CSV file with the following columns:
 ## Modeling Approach
 
 We utilize various deep learning classifiers to attribute completions to the correct LLM. The classifiers explored include:
-- Transformer-based models (BERT, RoBERTa, T5, etc.)
-- Recurrent Neural Networks (LSTM, GRU)
-- Traditional machine learning methods
-- Ensemble models to combine multiple architectures
+- Transformer-based models (BERT) *our best model
+- Recurrent Neural Networks (LSTM)
+- Traditional machine learning methods (SVM)
+- Ensemble models to combine multiple architectures (XGBoost)
 
 Our experiments compare the accuracy of these models in attributing completions to the correct LLM and identify the best-performing architecture.
 
