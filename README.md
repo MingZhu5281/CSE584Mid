@@ -1,4 +1,4 @@
-# CSE584Mid README TEMPLATE
+# CSE584Mid README
 
 # LLM Attribution Classifier Project
 
@@ -15,6 +15,8 @@ This project aims to build a deep learning classifier to attribute text completi
 - [Contributors](#contributors)
 
 ## Dataset
+Processed_Training.csv
+Processed_Testing.csv
 
 The dataset consists of pairs of truncated and completed texts `(xi, xj)`, where:
 - **xi**: The initial incomplete text prompt (e.g., "Yesterday I went").
